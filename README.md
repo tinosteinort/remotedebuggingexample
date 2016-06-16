@@ -2,13 +2,13 @@ Example to show remote Debugging of a Java Application
 ======================================================
 
 1. To create a standalone JAR, run
-```
-mvn package
-```
+    ```
+    mvn package
+    ```
 2. Execute the follwing Command. This starts the standalone JAR with Parameter for remote Debugging
-```
-java -Xdebug -Xrunjdwp:transport=dt_socket,address=8810,server=y -jar remotedebuggingexample-1.0-SNAPSHOT.jar
-```
+    ```
+    java -Xdebug -Xrunjdwp:transport=dt_socket,address=8810,server=y -jar remotedebuggingexample-1.0-SNAPSHOT.jar
+    ```
 3. Configure RemoteDebugging Run Config
     * Create new Remote Debugging Run Config in your IDE
     * Select a Name for the Run Config
